@@ -53,7 +53,6 @@ lazy val commonSettings = Seq(
     val akkaVersion = "2.3.11"
     val sparkVersion = "1.6.2"
     Seq(
-      "ch.qos.logback" % "logback-classic" % "1.1.7",
       "org.apache.spark" %% "spark-core" % sparkVersion,
       "org.apache.spark" %% "spark-sql" % sparkVersion,
       "org.apache.spark" %% "spark-streaming" % sparkVersion,
