@@ -1,4 +1,4 @@
-package org.lavenderx.tutorial
+package org.lavenderx.tutorial.spark
 
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.streaming.{Seconds, StreamingContext}
