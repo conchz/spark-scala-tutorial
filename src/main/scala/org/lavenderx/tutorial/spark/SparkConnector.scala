@@ -7,7 +7,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 trait SparkConnector {
   lazy val conf = {
     new SparkConf(false)
-      .setMaster("spark://spark-master:7077")
+      .setMaster("local[4]")
       .setAppName("Spark Tutorial")
   }
 
