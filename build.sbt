@@ -1,5 +1,5 @@
 organization in ThisBuild := "com.github.lavenderx"
-scalaVersion in ThisBuild := "2.10.6"
+scalaVersion in ThisBuild := "2.11.8"
 
 
 lazy val commonSettings = Seq(
@@ -51,14 +51,13 @@ lazy val commonSettings = Seq(
 
   libraryDependencies ++= {
     val akkaVersion = "2.3.11"
-    val sparkVersion = "1.6.2"
+    val sparkVersion = "2.0.0"
     Seq(
       "org.apache.spark" %% "spark-core" % sparkVersion,
       "org.apache.spark" %% "spark-sql" % sparkVersion,
       "org.apache.spark" %% "spark-streaming" % sparkVersion,
       "org.apache.spark" %% "spark-graphx" % sparkVersion,
       "org.apache.spark" %% "spark-mllib" % sparkVersion,
-      "com.databricks" %% "spark-csv" % "1.4.0",
       "com.typesafe.akka" %% "akka-actor" % akkaVersion,
       "org.scalatest" %% "scalatest" % "2.2.6" % "test"
     )
