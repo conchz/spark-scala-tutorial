@@ -35,8 +35,8 @@ lazy val commonSettings = Seq(
 
   javacOptions in compile ++= Seq(
     "-encoding", "UTF-8",
-    "-source", "1.7",
-    "-target", "1.7",
+    "-source", "1.8",
+    "-target", "1.8",
     "-Xlint:unchecked",
     "-Xlint:deprecation"
   ),
