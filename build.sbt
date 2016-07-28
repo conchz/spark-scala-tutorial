@@ -50,7 +50,7 @@ lazy val commonSettings = Seq(
   ),
 
   libraryDependencies ++= {
-    val akkaVersion = "2.3.11"
+    val akkaVersion = "2.4.8"
     val sparkVersion = "2.0.0"
     Seq(
       "org.apache.spark" %% "spark-core" % sparkVersion,
